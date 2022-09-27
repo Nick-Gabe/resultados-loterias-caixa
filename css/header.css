@@ -11,6 +11,11 @@ header > img {
   width: fit-content;
 }
 
+h1 {
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+
 select {
   padding: 5px 20px;
   border-radius: 5px;
