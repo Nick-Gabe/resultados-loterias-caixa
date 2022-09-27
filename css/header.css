@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--white);
+}
+
+header > img {
+  height: 30px;
+  width: fit-content;
+}
+
+select {
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+@media (max-width: 560px) {
+  header {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  header > img {
+    margin-bottom: 10px;
+  }
+
+  select {
+    padding: 5px;
+  }
+}
